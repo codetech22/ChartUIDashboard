@@ -1,0 +1,32 @@
+.pie{
+    margin-top: 300px;
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: conic-gradient(pink 80deg,lightblue 0 235deg,orange 160deg);
+ 
+}
+body,
+.piechart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 5px;
+    width: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: lightgreen;
+}
+.bottom1{
+    height: 100px;
+    width: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 5px;
+    background-color: lightgreen;
+}
